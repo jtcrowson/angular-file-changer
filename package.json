@@ -2,7 +2,7 @@
   "name": "angular-file-changer",
   "displayName": "Angular File Changer (Supporting Touch Bar and NgRx)",
   "description": "Easily navigate between typescript, template, style, and associated test files in your Angular project using the Mac Touch Bar.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "john-crowson",
   "icon": "logo.png",
   "engines": {
