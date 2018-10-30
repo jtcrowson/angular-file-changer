@@ -1,0 +1,153 @@
+{
+    "name": "angular-file-changer",
+    "displayName": "angular-file-changer",
+    "description": "Easily navigate between typescript, template, style, and associated test files in your Angular project using the Mac Touch Bar.",
+    "version": "0.0.1",
+    "publisher": "john-crowson",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+      ],
+      "main": "./out/extension",
+      "contributes": {
+        "commands": [
+          {
+            "command": "extension.switchHTML",
+            "title": ".html"
+          },
+          {
+            "command": "extension.switchCSS",
+            "title": ".css"
+          },
+          {
+            "command": "extension.switchTypeScript",
+            "title": ".ts"
+          },
+          {
+            "command": "extension.switchTest",
+            "title": ".spec"
+          },
+          {
+            "command": "extension.switchAction",
+            "title": "actions"
+          },
+          {
+            "command": "extension.switchEffect",
+            "title": "effects"
+          },
+          {
+            "command": "extension.switchReducer",
+            "title": "reducers"
+          }
+        ],
+        "menus": {
+          "touchBar": [
+            {
+              "command": "extension.switchHTML",
+              "group": "editing",
+              "when": "resourceFilename =~ /(\\.component\\.css)|(\\.component\\.sass)|(\\.component\\.less)|(\\.component\\.html)|(\\.component\\.scss)|(\\.component\\.ts)|(\\.component\\.spec\\.ts)$/"
+            },
+            {
+              "command": "extension.switchCSS",
+              "group": "editing",
+              "when": "resourceFilename =~ /(\\.component\\.css)|(\\.component\\.sass)|(\\.component\\.less)|(\\.component\\.html)|(\\.component\\.scss)|(\\.component\\.ts)|(\\.component\\.spec\\.ts)$/"
+            },
+            {
+              "command": "extension.switchTypeScript",
+              "group": "editing",
+              "when": "resourceFilename =~ /(\\.component\\.css)|(\\.component\\.sass)|(\\.component\\.less)|(\\.component\\.html)|(\\.component\\.scss)|(\\.component\\.ts)|(\\.component\\.spec\\.ts)$/"
+            },
+            {
+              "command": "extension.switchTest",
+              "group": "editing",
+              "when": "resourceFilename =~ /(\\.action)|(\\.reducer)|(\\.effect)|(\\.component\\.css)|(\\.component\\.sass)|(\\.component\\.less)|(\\.component\\.html)|(\\.component\\.scss)|(\\.component\\.ts)|(\\.component\\.spec\\.ts)$/"
+            },
+            {
+              "command": "extension.switchAction",
+              "group": "editing",
+              "when": "resourceFilename =~ /(\\.action)|(\\.reducer)|(\\.effect)/"
+            },
+            {
+              "command": "extension.switchEffect",
+              "group": "editing",
+              "when": "resourceFilename =~ /(\\.action)|(\\.reducer)|(\\.effect)/"
+            },
+            {
+              "command": "extension.switchReducer",
+              "group": "editing",
+              "when": "resourceFilename =~ /(\\.action)|(\\.reducer)|(\\.effect)/"
+            }
+          ]
+        },
+        "keybindings": [
+          {
+            "command": "extension.switchHTML",
+            "key": "alt+h",
+            "mac": "shift+alt+h"
+          },
+          {
+            "command": "extension.switchCSS",
+            "key": "alt+c",
+            "mac": "shift+alt+c"
+          },
+          {
+            "command": "extension.switchTypeScript",
+            "key": "alt+t",
+            "mac": "shift+alt+t"
+          },
+          {
+            "command": "extension.switchTest",
+            "key": "alt+s",
+            "mac": "shift+alt+s"
+          },
+          {
+            "command": "extension.switchAction",
+            "key": "alt+a",
+            "mac": "shift+alt+a"
+          },
+          {
+            "command": "extension.switchEffect",
+            "key": "alt+e",
+            "mac": "shift+alt+e"
+          },
+          {
+            "command": "extension.switchReducer",
+            "key": "alt+r",
+            "mac": "shift+alt+r"
+          }
+        ],
+        "configuration": {
+          "title": "Side by side",
+          "properties": {
+            "angular-file-changer.openSideBySide": {
+              "type": "boolean",
+              "default": false,
+              "description": "Open files side by side to Angular Component Typescript file."
+            }
+          }
+        }
+      },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.21",
+        "tslint": "^5.8.0",
+        "@types/node": "^8.10.25",
+        "@types/mocha": "^2.2.42"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jtcrowson/angular-file-changer"
+    }
+}
