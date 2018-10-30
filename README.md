@@ -1,4 +1,4 @@
-# Angular File Changer (including Touchbar and NgRx Intergration)
+# Angular File Changer
 
 Navigate between Angular component's relative files or NgRx files using your Mac Touch Bar or keyboard.
 
