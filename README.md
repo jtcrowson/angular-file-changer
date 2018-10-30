@@ -55,6 +55,16 @@ Follow me on twitter for updates [@john_crowson](https://twitter.com/john_crowso
 
     > Mac Touch Bar key titled ".spec"
     > `alt+s`(Windows) `shift+alt+s`(macOS)<br>
+    
+## Touch Bar Integration Screenshots
+
+When viewing a component file:
+
+![Component Touch Bar](https://github.com/jtcrowson/angular-file-changer/raw/master/images/component-touchbar.png)
+
+When viewing an NgRx file.
+
+![NgRx Touch Bar](https://github.com/jtcrowson/angular-file-changer/blob/master/images/ngrx-touchbar.png?raw=true)
 
 ## Source
 
