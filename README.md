@@ -2,9 +2,9 @@
 
 Navigate between Angular component's relative files or NgRx files using your Mac Touch Bar or keyboard.
 
-Easily navigate between a component's `typescript(example.component.ts)`|`test(example.component.spec.ts)`|`template(example.component.html)`|`style(.scss/.sass/.less/.css)` in an Angular project.
+Easily navigate between a component's `typescript(example.component.ts)` | `test(example.component.spec.ts)` | `template(example.component.html)` | `style(.scss/.sass/.less/.css)` in an Angular project.
 
-Easily navigate between an NgRx action's `action(example.actions.ts)`|`test(.spec.ts)`|`effects(example.effects.ts)`|`reducers(example.reducer.ts)`.
+Easily navigate between an NgRx action's `action(example.actions.ts)` | `test(.spec.ts)` | `effects(example.effects.ts)` | `reducers(example.reducer.ts)`.
 
 ---
 
@@ -12,7 +12,7 @@ Follow me on twitter for updates [@john_crowson](https://twitter.com/john_crowso
 
 ## Usage
 
-* Switch `.ts`|`.html`|`.css`|`.spec.ts` quickly.
+* Switch `.ts` | `.html` | `.css` | `.spec.ts` quickly.
 
   * Go to component's relative .html file
 
@@ -34,7 +34,7 @@ Follow me on twitter for updates [@john_crowson](https://twitter.com/john_crowso
     > Mac Touch Bar key titled ".css"<br>
     > Keyboard: `alt+c`(Windows) `shift+alt+c`(macOS)
 
-* Switch `.actions.ts`|`.effects.ts`|`.reducer.ts`|`.spec.ts` quickly.
+* Switch `.actions.ts` | `.effects.ts` | `.reducer.ts` | `.spec.ts` quickly.
 
   * Go to NgRx component's relative .actions.ts file
 
