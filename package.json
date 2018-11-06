@@ -4,12 +4,24 @@
   "description": "Easily navigate between typescript, template, style, and associated test files in your Angular project using the Mac Touch Bar.",
   "version": "0.0.3",
   "publisher": "john-crowson",
-  "icon": "logo.png",
+  "author": {
+    "name": "John Crowson",
+    "url": "https://twitter.com/john_crowson"
+  },
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.27.0"
   },
   "categories": [
+    "Keymaps",
     "Other"
+  ],
+  "keywords": [
+    "angular",
+    "ngrx",
+    "file",
+    "typescript",
+    "productivity"
   ],
   "activationEvents": [
     "*"

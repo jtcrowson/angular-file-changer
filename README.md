@@ -70,4 +70,8 @@ When viewing an NgRx file.
 
 [GitHub](https://github.com/jtcrowson/angular-file-changer)
 
+## Shouts Out
+
 Inspired by [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
+
+Logo designed by [Seth Cottle](https://cottle.io) and [Casey Cavanagh](https://caseycavanagh.com/)
